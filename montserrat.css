@@ -54,7 +54,8 @@ font-family: 'Montserrat';
 font-style: normal;
 font-weight: 600;
 src: local("?"),
-		url(//brick.a.ssl.fastly.net/fonts/montserrat/600.woff) format('woff'),
+url(//gitcdn.link/repo/JulietaUla/Montserrat/master/fonts/webfonts/Montserrat-SemiBold.woff2) format('woff2'),
+url(//brick.a.ssl.fastly.net/fonts/montserrat/600.woff) format('woff'),
 url(Montserrat-SemiBold.woff2) format('woff2'),
 url(Montserrat-SemiBold.woff) format('woff');
 }
