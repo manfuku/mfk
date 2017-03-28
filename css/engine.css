@@ -25,8 +25,8 @@ padding: 1.5rem 0;
 
 
 #header {
-background: #D32F2F;
-color: #fff;
+background: #fff;
+border-bottom: 1px #eee solid;
 }
 
 #header > * > * {
@@ -42,28 +42,29 @@ margin-left: 1rem;
 }
 
 #mnav {
-width: 32px;
+height: 25px;
 height: 32px;
 position: relative;
 cursor: pointer;
 display: inline-block;
+vertical-align: middle; 
 }
 
 #mnav span {
 display: block;
 width: 100%;
 height: 3px;
-background: #fff;
+background: #555;
 position: absolute;
 }
 
-#mnav span:nth-child(1) { top: 6px; }
+#mnav span:nth-child(1) { top: 3px; }
 #mnav span:nth-child(2),
-#mnav span:nth-child(3) { top: 15px; }
-#mnav span:nth-child(4) { top: 24px; }
+#mnav span:nth-child(3) { top: 11px; }
+#mnav span:nth-child(4) { top: 19px; }
 
 #mnav.open span:nth-child(1),
-#mnav.open span:nth-child(4) { top: 14px; /* width: 0; height: 0; */ opacity: 0;  transition: all 0s ease  }
+#mnav.open span:nth-child(4) { top: 11px; opacity: 0;  transition: all 0s ease  }
 #mnav.open span:nth-child(2) { transform: rotate(45deg); }
 #mnav.open span:nth-child(3) { transform: rotate(-45deg); }
 
