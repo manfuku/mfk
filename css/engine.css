@@ -42,8 +42,8 @@ margin-left: 1rem;
 }
 
 #mnav {
-width: 25px;
-height: 32px;
+width: 32px;
+height: 25px;
 position: relative;
 cursor: pointer;
 display: inline-block;
