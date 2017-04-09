@@ -1,3 +1,5 @@
+select, .select2-container .select2-choice { box-shadow: none }
+
 /* PRODUCT PAGE 60/40 */
 .product-gallery { width: 60% }
 .product-info { width: 40% }
