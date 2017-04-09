@@ -1,5 +1,9 @@
-/* HIDE STUFF */
+/* PRODUCT PAGE 60/40 */
+.product-gallery { width: 60% }
+.product-info { width: 40% }
+.product-page-aside { display: none}
 
+/* HIDE STUFF */
 .product-small p.category,
 .tx-div,
 .product-page-aside,
