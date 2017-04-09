@@ -1,9 +1,11 @@
 select, .select2-container .select2-choice { box-shadow: none }
 
 /* PRODUCT PAGE 60/40 */
+@media (min-width: 48em) {
 .product-gallery { width: 60% }
 .product-info { width: 40% }
 .product-page-aside { display: none}
+}
 
 /* HIDE STUFF */
 .product-small p.category,
