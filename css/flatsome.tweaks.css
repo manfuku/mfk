@@ -13,7 +13,7 @@ select, .select2-container .select2-choice { box-shadow: none }
 .tx-div,
 .product-page-aside,
 .product-footer .woocommerce-tabs.tabbed-content 
-{ display: none}
+{ display: none !important }
 
 /* FOOTER */
 .absolute-footer { padding: 1rem 0 }
