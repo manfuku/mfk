@@ -1,1 +1,7 @@
-.product-footer .woocommerce-tabs.tabbed-content { display: none}
+/* HIDE STUFF */
+
+.product-small p.category,
+.tx-div,
+.product-page-aside,
+.product-footer .woocommerce-tabs.tabbed-content 
+{ display: none}
