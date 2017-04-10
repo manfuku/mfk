@@ -1,3 +1,5 @@
+#masthead.stuck {  opacity: 0.98; }
+
 .woocommerce-message { padding: 0; text-align: center; }
 
 select, .select2-container .select2-choice { box-shadow: none }
