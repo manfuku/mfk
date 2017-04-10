@@ -11,6 +11,7 @@ select, .select2-container .select2-choice { box-shadow: none }
 }
 
 /* HIDE STUFF */
+.top-divider,
 .product-small p.category,
 .tx-div,
 .product-page-aside,
