@@ -6,8 +6,8 @@ select, .select2-container .select2-choice { box-shadow: none }
 
 /* PRODUCT PAGE 60/40 */
 @media (min-width: 48em) {
-.product-gallery { width: 60% }
-.product-info { width: 40% }
+.single-product .product-gallery { width: 60% }
+.single-product .product-info { width: 40% }
 }
 
 /* HIDE STUFF */
