@@ -4,6 +4,8 @@
 
 select, .select2-container .select2-choice { box-shadow: none }
 
+.row { max-width: 75em; }
+
 /* PRODUCT PAGE 60/40 */
 @media (min-width: 48em) {
 .single-product .product-gallery { width: 60% }
