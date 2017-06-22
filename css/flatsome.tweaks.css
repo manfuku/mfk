@@ -1,13 +1,19 @@
+/* ADJUST HEADER TRANSPARENCY */
 #masthead.stuck {  opacity: 0.98; }
 
+/* CENTER ALIGN WC MESSAGE */
 .woocommerce-message { padding: 0; text-align: center; }
 
+/* REMOVE SHADOWS */
 select, .select2-container .select2-choice { box-shadow: none }
 
+/* WIDEN CONTENT AREA */
 .row { max-width: 75em; }
 
+/* PAYAPAL ICONS */
 .payment_box.payment_method_paypal::before {
 content: url(https://gitcdn.link/repo/manfuku/mfk/master/img/AM_SbyPP_mc_vs_ms_ae_UK.png);
+content: url(https://cdn.jsdelivr.net/gh/manfuku/mfk@1/img/AM_SbyPP_mc_vs_ms_ae_UK.png);
 }
 
 /* PRODUCT PAGE 60/40 */
