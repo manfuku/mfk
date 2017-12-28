@@ -19,6 +19,9 @@ content: url(https://cdn.jsdelivr.net/gh/manfuku/mfk@latest/img/AM_SbyPP_mc_vs_m
 @media (min-width: 48em) {
 .single-product .product-gallery { width: 60% }
 .single-product .product-info { width: 40% }
+  
+.fancy-product .product-gallery { width: 80% }
+  .fancy-product .product-info { width: 20% }
 }
 
 /* HIDE STUFF */
